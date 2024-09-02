@@ -12,7 +12,7 @@ type Person struct {
 	Email string `json:"email"`
 }
 
-const URL = "https://api.mockfly.dev/mocks/89581d33-331e-4cce-bca8-8256ebde363d/test"
+const URL = "https://webhook.site/eaf41caf-8412-429c-ba71-f1a900bbb45c"
 
 func makePostRequest(data interface{}, wg *sync.WaitGroup) error {
 	body, err := json.Marshal(data)

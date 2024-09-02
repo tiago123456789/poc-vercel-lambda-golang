@@ -12,7 +12,7 @@ type Person struct {
 	Email string `json:"email"`
 }
 
-const URL = "https://webhook.site/eaf41caf-8412-429c-ba71-f1a900bbb45c"
+const URL = "https://typedwebhook.tools/webhook/152bdd7a-6588-41bf-b7e2-0f782fbdc73e"
 
 func makePostRequest(data interface{}, wg *sync.WaitGroup) error {
 	body, err := json.Marshal(data)

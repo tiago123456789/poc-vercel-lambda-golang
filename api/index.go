@@ -55,7 +55,7 @@ func Handler(w http.ResponseWriter, r *http.Request) {
 
 	var wg sync.WaitGroup
 
-	for i := 0; i < 200; i ++ {
+	for i := 0; i < 500; i ++ {
 		wg.Add(1)
 		go makePostRequest(person, &wg)
 	}
